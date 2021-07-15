@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body ng-app="routeapp">
+    <a href="#/home.html">Home</a>
+    <a href="#/services.html">Services</a>
+    <a href="#/contact.html">Contact</a>
+    <div>
+        <ng-view></ng-view>
+    </div>
+    <script type="text/javascript" src="routing.js"></script>
+</body>
+
+</html>
